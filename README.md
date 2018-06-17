@@ -1,4 +1,4 @@
-# MongoDOWN
+# tingoDOWN
 
 A drop-in replacement for
 [LevelDOWN](https://github.com/rvagg/node-leveldown) that runs on
@@ -11,7 +11,7 @@ LevelDB store.
 ## Installation
 
 ```
-npm install mongodown
+npm install tingodown
 ```
 
 ## Example
@@ -38,7 +38,7 @@ db.readStream()
 
 ## Limitations
 
-MongoDOWN does not support iterator snapshots
+tingoDOWN does not support iterator snapshots
 
 ## License
 

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node test.js"
   },
-  "author": "Thomas Watson Steen <w@tson.dk>",
+  "author": "mukaiu <mukaiu@outlook.com>",
   "license": "MIT",
   "dependencies": {
     "abstract-leveldown": "^2.6.0",
@@ -18,8 +18,7 @@
     "tap": "^0.5.0"
   },
   "keywords": [
-    "mongo",
-    "mongodb",
+    "tingodb",
     "level",
     "leveldown",
     "levelup",
@@ -29,12 +28,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/watson/mongodown.git"
+    "url": "https://github.com/mukaiu/tingodown.git"
   },
   "bugs": {
-    "url": "https://github.com/watson/mongodown/issues"
+    "url": "https://github.com/mukaiu/tingodown/issues"
   },
-  "homepage": "https://github.com/watson/mongodown",
+  "homepage": "https://github.com/mukaiu/tingodown",
   "coordinates": [
     40.7458692,
     -73.9881377

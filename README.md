@@ -2,11 +2,11 @@
 
 A drop-in replacement for
 [LevelDOWN](https://github.com/rvagg/node-leveldown) that runs on
-MongoDB. Can be used as a back-end for
+TingoDB. Can be used as a back-end for
 [LevelUP](https://github.com/rvagg/node-levelup) rather than an actual
 LevelDB store.
 
-[![Build Status](https://travis-ci.org/watson/mongodown.png)](https://travis-ci.org/watson/mongodown)
+<!-- [![Build Status](https://travis-ci.org/watson/mongodown.png)](https://travis-ci.org/watson/mongodown) -->
 
 ## Installation
 
@@ -18,13 +18,13 @@ npm install tingodown
 
 ```javascript
 var levelup = require('levelup')
-var mongodown = require('mongodown')
+var tingodown = require('tingodown')
 
-// MongoDB Collection name defaults to 'mongodown'
-var db = levelup(mongodown('localhost/my-database'))
+// TingoDB Collection name defaults to 'tingodown'
+var db = levelup(tingodown('tingodb:///home/my-database'))
 
-// OR pass custom MongoDB collection name
-db = levelup(mongodown('localhost/my-database'), { collection:'People_C' })
+// OR pass custom TingoDB collection name
+db = levelup(tingodown('tingodb:///home/my-database'), { collection:'People_C' })
 
 db.put('name', 'Yuri Irsenovich Kim')
 db.put('dob', '16 February 1941')
